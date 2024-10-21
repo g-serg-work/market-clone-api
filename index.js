@@ -32,12 +32,6 @@ const badRequest = (req, res) =>
 // routes
 server.post("/login", loginPost(handlerCfg));
 server.get("/catalog/:catalogId", catalogGet(handlerCfg));
-server.get("/favorite-category/:userId", favoriteCategoryGet(handlerCfg));
-server.get("/orders/:userId", ordersByUserGet(handlerCfg));
-
-server.get("/login", badRequest);
-server.get("/catalog", badRequest);
-server.get("/favorite-category", badRequest);
 
 server.use((req, res, next) => {
     if (!req.headers.authorization) {
@@ -46,6 +40,12 @@ server.use((req, res, next) => {
 
     next();
 });
+
+server.get("/favorite-category/:userId", favoriteCategoryGet(handlerCfg));
+server.get("/orders/:userId", ordersByUserGet(handlerCfg));
+
+server.get("*", badRequest);
+server.post("*", badRequest);
 
 server.use(jsonDbRouter);
 
