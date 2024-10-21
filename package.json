@@ -1,0 +1,24 @@
+{
+    "name": "market-clone-api",
+    "version": "0.0.1",
+    "main": "index.js",
+    "scripts": {
+        "start": "node ./index.js"
+    },
+    "keywords": [],
+    "dependencies": {
+        "json-server": "^0.17.4"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/g-serg-work/market-clone-api.git"
+    },
+    "license": "Unlicense",
+    "devDependencies": {},
+    "author": "g-serg-work",
+    "bugs": {
+        "url": "https://github.com/g-serg-work/market-clone-api/issues"
+    },
+    "homepage": "https://github.com/g-serg-work/market-clone-api#readme",
+    "description": ""
+}
