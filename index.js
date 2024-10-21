@@ -7,6 +7,7 @@ const http = require("http");
 const marketDataParse = require("./market/reader.js");
 const cfg = require("./market/cfg.json");
 const loginPost = require("./handler/login");
+const profileGet = require("./handler/profileGet");
 const catalogGet = require("./market/handler/catalogGet");
 const favoriteCategoryGet = require("./market/handler/favoriteCategoryGet");
 const ordersByUserGet = require("./market/handler/ordersByUserGet");
@@ -43,6 +44,7 @@ server.use((req, res, next) => {
 
 server.get("/favorite-category/:userId", favoriteCategoryGet(handlerCfg));
 server.get("/orders/:userId", ordersByUserGet(handlerCfg));
+server.get("/profiles/:userId", profileGet(handlerCfg));
 
 server.get("*", badRequest);
 server.post("*", badRequest);
