@@ -9,8 +9,9 @@ const cfg = require("./market/cfg.json");
 const loginPost = require("./handler/login");
 const profileGet = require("./handler/profileGet");
 const catalogGet = require("./market/handler/catalogGet");
-const favoriteCategoryGet = require("./market/handler/favoriteCategoryGet");
+const favoriteCategoryGet = require("./market/handler/favoriteCategoryByUserGet.js");
 const ordersByUserGet = require("./market/handler/ordersByUserGet");
+const authorizationCheck = require("./handler/authorizationCheck");
 //
 
 const dir = path.resolve(__dirname, "./market/data");
@@ -22,34 +23,33 @@ const mainDbGetter = () => JSON.parse(fs.readFileSync(mainDbPath, "UTF-8"));
 const handlerCfg = { cfg, mainDbGetter, marketDb };
 
 const server = jsonServer.create();
-const jsonDbRouter = jsonServer.router(mainDbPath);
+
+// disable data update
+// const jsonDbRouter = jsonServer.router(mainDbPath);
+// server.use(jsonDbRouter);
 
 server.use(jsonServer.defaults({}));
 server.use(jsonServer.bodyParser);
 
-const badRequest = (req, res) =>
-    res.status(400).json({ message: "Bad Request" });
+const badRequest = (_, res) => res.status(400).json({ message: "Bad Request" });
 
-// routes
-server.post("/login", loginPost(handlerCfg));
+// free
 server.get("/catalog/:catalogId", catalogGet(handlerCfg));
-
-server.use((req, res, next) => {
-    if (!req.headers.authorization) {
-        return res.status(403).json({ message: "AUTH ERROR" });
-    }
-
-    next();
-});
-
-server.get("/favorite-category/:userId", favoriteCategoryGet(handlerCfg));
-server.get("/orders/:userId", ordersByUserGet(handlerCfg));
-server.get("/profiles/:userId", profileGet(handlerCfg));
-
-server.get("*", badRequest);
-server.post("*", badRequest);
-
-server.use(jsonDbRouter);
+// private
+server.post("/login", loginPost(handlerCfg));
+server.get("/profile", authorizationCheck(handlerCfg), profileGet(handlerCfg));
+server.get(
+    "/favorite-category",
+    authorizationCheck(handlerCfg),
+    favoriteCategoryGet(handlerCfg),
+);
+server.get(
+    "/orders",
+    authorizationCheck(handlerCfg),
+    ordersByUserGet(handlerCfg),
+);
+//not found
+server.use("*", badRequest);
 
 // run server
 const HTTP_PORT = 8000;

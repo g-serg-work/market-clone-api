@@ -6,14 +6,16 @@ const loginPost = (handlerCfg) => (req, res) => {
 
         const { users, profiles } = mainDbGetter();
 
-        const userRow = users.find((user) => user.userName === userName);
+        const user = users.find((user) => user.userName === userName);
 
-        if (userRow) {
-            const profileRow = profiles.find(
-                (profile) => profile.id === userRow.id,
+        if (user) {
+            const profile = profiles.find(
+                (profile) => profile.userId === user.userId,
             );
-
-            if (profileRow) return res.json(profileRow);
+            if (profile) {
+                const { userId, ...rest } = profile;
+                return res.json({ token: user.token, ...rest });
+            }
         }
 
         return res.status(403).json({ message: 'User not found' });

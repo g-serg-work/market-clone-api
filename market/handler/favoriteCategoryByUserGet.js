@@ -1,12 +1,14 @@
 const parseCategory = require('../../util/parseCategory');
 
-const favoriteCategoryGet = (handlerCfg) => (req, res) => {
+const favoriteCategoryByUserGet = (handlerCfg) => (req, res) => {
     try {
         const { cfg, mainDbGetter, marketDb } = handlerCfg;
 
-        const { userId } = req.params;
+        const { authorization } = req.headers;
 
-        const { 'favorite-category': favoriteCategory } = mainDbGetter();
+        const { users, 'favorite-category': favoriteCategory } = mainDbGetter();
+
+        const { userId } = users.find((user) => user.token === authorization);
 
         const categories = favoriteCategory
             .filter((category) => category.userId === userId)
@@ -26,4 +28,4 @@ const favoriteCategoryGet = (handlerCfg) => (req, res) => {
     }
 };
 
-module.exports = favoriteCategoryGet;
+module.exports = favoriteCategoryByUserGet;

@@ -2,11 +2,13 @@ const parseOrder = require('../../util/parseOrder');
 
 const ordersByUserGet = (handlerCfg) => (req, res) => {
     try {
-        const { cfg, mainDbGetter, marketDb } = handlerCfg;
+        const { cfg, mainDbGetter } = handlerCfg;
 
-        const { userId } = req.params;
+        const { authorization } = req.headers;
 
-        const { orders: dbOrders } = mainDbGetter();
+        const { users, orders: dbOrders } = mainDbGetter();
+
+        const { userId } = users.find((user) => user.token === authorization);
 
         const orders = dbOrders
             .filter((order) => order.userId === userId)

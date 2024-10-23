@@ -1,13 +1,14 @@
 {
     "users": [
         {
-            "id": "1",
-            "userName": "guest"
+            "userId": "1",
+            "userName": "guest",
+            "token": "c1b57454-6ec9-462f-a5ad-b295ece62a06"
         }
     ],
     "profiles": [
         {
-            "id": "1",
+            "userId": "1",
             "userName": "guest",
             "userEmail": "guest@market-clone.ru",
             "addressList": ["Пункт выдачи: ул. Героя Нахимова"],
@@ -30,8 +31,8 @@
     ],
     "orders": [
         {
-            "id": "486442162",
             "userId": "1",
+            "id": "486442162",
             "fromDate": "От 25 января",
             "status": "Уже у вас",
             "statusDate": "Курьер доставил 3 июля",
