@@ -1,10 +1,11 @@
 const parseProduct = (cfg, product) => {
-    const { id, img } = product;
+    const { id, images } = product;
     const { avatarsBaseUrl } = cfg;
 
     return {
         ...product,
-        img: `${avatarsBaseUrl}/get-mpic${img}`,
+        images: images.map((img) => `${avatarsBaseUrl}/get-mpic/${img}`),
+        // img: `${avatarsBaseUrl}/get-mpic${img}`,
         href: `/product/${id}`,
     };
 };

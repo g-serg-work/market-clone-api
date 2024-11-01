@@ -1,0 +1,11 @@
+{
+    "cSpell.ignorePaths": ["**/node_modules/**", "/market/data"],
+    "cSpell.words": [
+        "carusel",
+        "kukla",
+        "marketcms",
+        "marketfront",
+        "mpic",
+        "Serp"
+    ]
+}
