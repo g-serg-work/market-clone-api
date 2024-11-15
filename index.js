@@ -4,18 +4,22 @@ const path = require('path');
 const http = require('http');
 
 // custom
-const marketDataParse = require('./market/reader.js');
+const marketDataParse = require('./market/reader');
+const prepareData = require('./market/prepareData');
 const cfg = require('./market/cfg.json');
 const loginPost = require('./handler/login');
 const profileGet = require('./handler/profileGet');
 const catalogGet = require('./market/handler/catalogGet');
 const favoriteCategoryGet = require('./market/handler/favoriteCategoryByUserGet.js');
 const ordersByUserGet = require('./market/handler/ordersByUserGet');
+const recomRollGet = require('./market/handler/recomRollGet.js');
 const authorizationCheck = require('./handler/authorizationCheck');
 //
 
 const dir = path.resolve(__dirname, './market/data');
+
 const marketDb = marketDataParse(dir);
+prepareData(marketDb);
 
 const mainDbPath = path.resolve(__dirname, 'db.json');
 const mainDbGetter = () => JSON.parse(fs.readFileSync(mainDbPath, 'UTF-8'));
@@ -34,7 +38,9 @@ server.use(jsonServer.bodyParser);
 const badRequest = (_, res) => res.status(400).json({ message: 'Bad Request' });
 
 // free
+server.get('/recom-roll', recomRollGet(handlerCfg));
 server.get('/catalog/:catalogId', catalogGet(handlerCfg));
+
 // private
 server.post('/login', loginPost(handlerCfg));
 server.get('/profile', authorizationCheck(handlerCfg), profileGet(handlerCfg));

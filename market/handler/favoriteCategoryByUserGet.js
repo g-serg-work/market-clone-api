@@ -1,4 +1,4 @@
-const parseCategory = require('../../util/parseCategory');
+const parseCategory = require('../../util/market/parseCategory');
 
 const favoriteCategoryByUserGet = (handlerCfg) => (req, res) => {
     try {

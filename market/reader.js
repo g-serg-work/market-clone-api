@@ -3,16 +3,24 @@ const fs = require('fs');
 const _marketDataParse = (dir, idx, names, keys, data, result) => {
     const name = names[idx];
     const key = keys[idx];
+    const subItemsName = `${name}SubItems`;
 
     if (!result[name]) result[name] = [];
+    if (!result[subItemsName]) result[subItemsName] = [];
 
     const path = `${dir}/${name}.json`;
+
     if (!fs.existsSync(path)) return;
 
     const jsonPath = fs.readFileSync(path, 'UTF-8');
 
     JSON.parse(jsonPath).forEach((row) => {
-        result[name].push({ ...data, ...row });
+        const { subItems = [], ...rowRest } = row;
+        result[name].push({ ...data, ...rowRest });
+
+        for (const subItem of subItems) {
+            result[subItemsName].push({ [key]: row.id, ...subItem });
+        }
 
         const subDir = `${dir}/${row.id}`;
 
@@ -22,7 +30,7 @@ const _marketDataParse = (dir, idx, names, keys, data, result) => {
                 idx + 1,
                 names,
                 keys,
-                { ...data, [key]: row.id },
+                { [key]: row.id, ...data },
                 result,
             );
         }
@@ -30,12 +38,20 @@ const _marketDataParse = (dir, idx, names, keys, data, result) => {
 };
 
 const marketDataParse = (dir) => {
-    const names = ['catalogs', 'categories', 'products'];
-    const keys = ['catalogId', 'categoryId', 'productId'];
+    const names = [
+        ['catalogs', 'categories', 'products'],
+        ['catalogs', 'page'],
+    ];
+    const keys = [
+        ['catalogId', 'categoryId', 'productId'],
+        ['catalogId', 'pageId'],
+    ];
 
     // eslint-disable-next-line prefer-const
     let result = {};
-    _marketDataParse(dir, 0, names, keys, {}, result);
+    for (const idx of names.keys()) {
+        _marketDataParse(dir, 0, names[idx], keys[idx], {}, result);
+    }
 
     return result;
 };

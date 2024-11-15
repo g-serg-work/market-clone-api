@@ -1,6 +1,6 @@
 const parseProduct = require('./parseProduct');
 
-const parseCatalogBanner = (cfg, banner, dbProducts) => {
+const parseCatalogBanner = (cfg, banner, products) => {
     const { bgImg, headerImg, carusel = [] } = banner;
     const { avatarsBaseUrl } = cfg;
 
@@ -9,7 +9,7 @@ const parseCatalogBanner = (cfg, banner, dbProducts) => {
         bgImg: `${avatarsBaseUrl}/get-marketcms${bgImg}.png/optimize`,
         headerImg: `${avatarsBaseUrl}/get-marketcms${headerImg}.png/optimize`,
         carusel: carusel
-            .map((id) => dbProducts.find((product) => product.id === id))
+            .map((id) => products.find((product) => product.id === id))
             .filter((product) => product)
             .map((product) => parseProduct(cfg, product))
             .map(({ catalogId, categoryId, ...rest }) => rest),

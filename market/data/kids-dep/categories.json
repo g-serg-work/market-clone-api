@@ -1,50 +1,658 @@
 [
     {
-        "id": "sales",
-        "img": "1490511/img-bfcaf826-8f9d-4ced-be05-ef6d7e726b24.png/optimize"
-    },
-    {
-        "id": "kukly-i-pupsy",
-        "img": "1490511/img-d7d991d4-695a-4ff0-92fe-5561b93abc24.png/optimize"
-    },
-    {
-        "id": "walks-and-travel",
-        "img": "1523779/img-4a06d51b-9e13-4ff0-8114-508803d31dcf.png/optimize"
+        "id": "advent-kalendari",
+        "title": "Адвент-календари",
+        "subItems": [
+            {
+                "id": "kalendari",
+                "title": "Календари"
+            },
+            {
+                "id": "igrovye-nabory-s-advent-kalendarem",
+                "title": "Игровые наборы и фигурки"
+            },
+            {
+                "id": "advent-kalendari-s-konstruktorami",
+                "title": "Конструкторы"
+            },
+            {
+                "id": "advent-kalendari-s-kuklami",
+                "title": "Куклы и пупсы"
+            },
+            {
+                "id": "advent-kalendari-s-naborami-dlia-opytov",
+                "title": "Наборы для исследований"
+            },
+            {
+                "id": "dekorativnye-advent-kalendari",
+                "title": "Новогодний декор"
+            },
+            {
+                "id": "advent-kalendari-s-golovolomkami",
+                "title": "Головоломки"
+            },
+            {
+                "id": "sbornye-modeli-advent-kalendari",
+                "title": "Сборные модели"
+            },
+            {
+                "id": "raskraski-s-advent-kalendarem",
+                "title": "Раскраски"
+            },
+            {
+                "id": "advent-kalendari-s-nakleikami",
+                "title": "Наклейки"
+            },
+            {
+                "id": "knigi-dlia-malyshei-s-advent-kalendarem",
+                "title": "Книги для малышей"
+            },
+            {
+                "id": "shokoladnye-konfety",
+                "title": "Шоколадные конфеты"
+            },
+            {
+                "id": "advent-kalendari-s-shokoladnymi-plitkami",
+                "title": "Шоколадная плитка"
+            },
+            {
+                "id": "grim-advent-kalendari",
+                "title": "Грим"
+            },
+            {
+                "id": "ukrasheniia-dlia-prazdnikov-advent-kalendari",
+                "title": "Украшения для организации праздников"
+            }
+        ]
     },
     {
         "id": "detskii-sport",
-        "img": "1523779/img-8b0db0e4-ed89-4b72-a95c-edea827477c0.png/optimize"
+        "title": "Детский спорт",
+        "subItems": [
+            {
+                "id": "sanki-i-aksessuary",
+                "title": "Санки и аксессуары"
+            },
+            {
+                "id": "snegokaty",
+                "title": "Снегокаты"
+            },
+            {
+                "id": "tiubingi-i-ledianki",
+                "title": "Тюбинги и ледянки"
+            },
+            {
+                "id": "snoubording-dlia-detei",
+                "title": "Сноубординг для детей"
+            },
+            {
+                "id": "khokkei-dlia-detei",
+                "title": "Хоккей для детей"
+            },
+            {
+                "id": "detskie-lyzhi-i-konki",
+                "title": "Детские лыжи и коньки"
+            },
+            {
+                "id": "detskii-transport",
+                "title": "Детский транспорт"
+            },
+            {
+                "id": "detskaia-ploshchadka",
+                "title": "Детская площадка"
+            },
+            {
+                "id": "letnii-sport",
+                "title": "Летний спорт"
+            },
+            {
+                "id": "sport-doma",
+                "title": "Спорт дома"
+            },
+            {
+                "id": "tantsy-i-gimnastika",
+                "title": "Танцы и гимнастика"
+            },
+            {
+                "id": "idem-v-bassein",
+                "title": "Идем в бассейн"
+            }
+        ]
     },
     {
-        "id": "tovary-dlia-tvorchestva-i-khobbi",
-        "img": "475644/img-86066e44-f154-47ad-8f6b-9e25cde85784.png/optimize"
+        "id": "pitanie-i-kormlenie",
+        "title": "Питание и кормление",
+        "subItems": [
+            {
+                "id": "detskoe-pitanie",
+                "title": "Детское питание"
+            },
+            {
+                "id": "stulchiki-dlia-kormleniia-malyshei",
+                "title": "Стульчики для кормления"
+            },
+            {
+                "id": "butylochki-i-aksessuary-dlia-kormleniia",
+                "title": "Бутылочки и аксессуары для кормления"
+            },
+            {
+                "id": "molokootsosy-dlia-kormiashchikh-mam",
+                "title": "Молокоотсосы"
+            },
+            {
+                "id": "sterilizatory-detskie",
+                "title": "Стерилизаторы"
+            },
+            {
+                "id": "podogrevateli-detskikh-butylochek",
+                "title": "Подогреватели бутылочек"
+            },
+            {
+                "id": "pustyshki-i-aksessuary",
+                "title": "Пустышки и аксессуары"
+            }
+        ]
     },
     {
         "id": "tovary-dlia-shkoly-i-obucheniia",
-        "img": "879900/img-71adf4ca-ff08-4b1e-9e7c-4f2838438894.png/optimize"
-    },
-    {
-        "id": "knigi-dlia-detei",
-        "img": "1523779/img-bf652e99-d7ad-4639-9cc9-66c2946907e9.png/optimize"
-    },
-    {
-        "id": "detskaia-odezhda-i-obuv",
-        "img": "1533751/img-a92b4f3d-b67f-4d2c-b442-b4139a69115d.png/optimize"
-    },
-    {
-        "id": "tovary-dlia-prazdnikov",
-        "img": "1532570/img-c84e8bb2-889d-4857-8a18-db150f0345b7.png/optimize"
-    },
-    {
-        "id": "konstruktory",
-        "img": "1490511/img-287dd1eb-54b9-411b-b096-c05ee20c34c6.png/optimize"
+        "title": "Товары для школы и офиса",
+        "subItems": [
+            {
+                "id": "riukzaki-rantsy-sumki",
+                "title": "Рюкзаки, ранцы, сумки"
+            },
+            {
+                "id": "tetradi-bloknoty-dnevniki",
+                "title": "Тетради, блокноты, дневники"
+            },
+            {
+                "id": "penaly-i-pismennye-prinadlezhnosti",
+                "title": "Пеналы и письменные принадлежности"
+            },
+            {
+                "id": "chertezhnye-instrumenty",
+                "title": "Чертежные инструменты"
+            },
+            {
+                "id": "kantseliarskie-tovary-dlia-ucheby",
+                "title": "Канцелярские товары"
+            },
+            {
+                "id": "rannee-razvitie",
+                "title": "Развивающие пособия и материалы"
+            },
+            {
+                "id": "shkolnye-globusy",
+                "title": "Школьные глобусы"
+            },
+            {
+                "id": "uchebnye-karty",
+                "title": "Учебные карты"
+            },
+            {
+                "id": "uroki-risovaniia",
+                "title": "Уроки рисования"
+            },
+            {
+                "id": "uroki-tekhnologii",
+                "title": "Уроки технологии"
+            },
+            {
+                "id": "demonstratsionnye-doski",
+                "title": "Демонстрационные доски"
+            },
+            {
+                "id": "knigi-i-uchebniki",
+                "title": "Книги и учебники"
+            },
+            {
+                "id": "shkolnaia-forma-dlia-devochek",
+                "title": "Школьная форма для девочек"
+            },
+            {
+                "id": "shkolnaia-forma-dlia-malchikov",
+                "title": "Школьная форма для мальчиков"
+            }
+        ]
     },
     {
         "id": "tovary-dlia-mam",
-        "img": "1668019/img-0534b02d-f5db-4360-8416-a6605ae248db.png/optimize"
+        "title": "Товары для мам",
+        "subItems": [
+            {
+                "id": "kosmetika-dlia-beremennykh-i-kormiashchikh-mam",
+                "title": "Уход за лицом и телом"
+            },
+            {
+                "id": "sbory-v-roddom",
+                "title": "Сборы в роддом"
+            },
+            {
+                "id": "grudnoe-vskarmlivanie",
+                "title": "Грудное вскармливание"
+            },
+            {
+                "id": "iskusstvennoe-vskarmlivanie",
+                "title": "Искусственное вскармливание"
+            },
+            {
+                "id": "podushki-i-kresla-dlia-mam",
+                "title": "Подушки и кресла для кормления"
+            },
+            {
+                "id": "riukzaki-sumki-kenguru-dlia-malyshei",
+                "title": "Рюкзаки и сумки-кенгуру"
+            },
+            {
+                "id": "slingi-i-nakidki-dlia-kormleniia",
+                "title": "Слинги"
+            },
+            {
+                "id": "sumki-dlia-mam",
+                "title": "Сумки для мам"
+            },
+            {
+                "id": "knigi-po-ukhodu-za-rebenkom",
+                "title": "Книги по уходу за ребенком"
+            },
+            {
+                "id": "knigi-po-psikhologii-i-vospitaniiu-dlia-roditelei",
+                "title": "Книги по психологии и воспитанию"
+            },
+            {
+                "id": "pitanie-dlia-beremennykh-i-kormiashchikh",
+                "title": "Питание для мам"
+            },
+            {
+                "id": "tovary-dlia-zashchity-i-bezopasnosti-malysha",
+                "title": "Защита и безопасность"
+            }
+        ]
     },
     {
-        "id": "detskie-tovary",
-        "img": "1357599/img-da02ad7b-ea92-4eaf-82bc-70d68154b9f4.png/optimize"
+        "id": "simvol-novogo-goda-2025",
+        "title": "Символ Нового года 2025",
+        "subItems": [
+            {
+                "id": "miagkie-igrushki-simvol-novogo-goda",
+                "title": "Мягкие игрушки"
+            },
+            {
+                "id": "igrovye-nabory-i-figurki-simvol-novogo-goda",
+                "title": "Игровые наборы и фигурки"
+            },
+            {
+                "id": "pazly-simvol-novogo-goda",
+                "title": "Пазлы"
+            },
+            {
+                "id": "kartiny-po-nomeram-simvol-novogo-goda",
+                "title": "Картины по номерам"
+            },
+            {
+                "id": "igrushki-antistress-simvol-novogo-goda",
+                "title": "Игрушки-антистресс"
+            },
+            {
+                "id": "roboty-simvol-novogo-goda",
+                "title": "Роботы"
+            },
+            {
+                "id": "rospis-predmetov-simvol-novogo-goda",
+                "title": "Роспись предметов"
+            },
+            {
+                "id": "nabory-dlia-viazaniia-simvol-novogo-goda",
+                "title": "Наборы для вязания"
+            },
+            {
+                "id": "nabory-dlia-vyshivaniia-simvol-novogo-goda",
+                "title": "Наборы для вышивания"
+            }
+        ]
+    },
+    {
+        "id": "progulki-i-puteshestviia",
+        "title": "Прогулки и путешествия",
+        "subItems": [
+            {
+                "id": "detskie-avtokresla",
+                "title": "Автокресла"
+            },
+            {
+                "id": "detskie-koliaski",
+                "title": "Коляски"
+            },
+            {
+                "id": "riukzaki-sumki-kenguru-dlia-malyshei",
+                "title": "Рюкзаки и сумки-кенгуру"
+            },
+            {
+                "id": "slingi-i-nakidki-dlia-kormleniia",
+                "title": "Слинги и накидки для кормления"
+            },
+            {
+                "id": "konverty-i-spalnye-meshki-dlia-malyshei",
+                "title": "Конверты и спальные мешки"
+            },
+            {
+                "id": "velokresla-dlia-malyshei",
+                "title": "Велокресла"
+            },
+            {
+                "id": "sumki-dlia-progulok",
+                "title": "Сумки для прогулок"
+            },
+            {
+                "id": "liulki-dlia-koliasok-i-perenoski",
+                "title": "Люльки и переноски"
+            },
+            {
+                "id": "aksessuary-i-zapchasti-dlia-koliasok-i-avtokresel",
+                "title": "Аксессуары и запчасти для колясок и автокресел"
+            }
+        ]
+    },
+    {
+        "id": "tovary-dlia-tvorchestva-i-khobbi",
+        "title": "Хобби и творчество",
+        "subItems": [
+            {
+                "id": "tovary-dlia-risovaniia-i-rospisi",
+                "title": "Рисование и роспись"
+            },
+            {
+                "id": "tovary-dlia-shitia-i-vyshivaniia",
+                "title": "Шитье и вышивание"
+            },
+            {
+                "id": "pazly-i-golovolomki",
+                "title": "Пазлы и головоломки"
+            },
+            {
+                "id": "podelki",
+                "title": "Поделки"
+            },
+            {
+                "id": "sbornye-modeli-i-aksessuary",
+                "title": "Сборные модели и аксессуары"
+            },
+            {
+                "id": "tovary-dlia-rukodeliia",
+                "title": "Рукоделие"
+            },
+            {
+                "id": "tovary-dlia-viazaniia",
+                "title": "Вязание"
+            },
+            {
+                "id": "tovary-dlia-lepki",
+                "title": "Лепка"
+            },
+            {
+                "id": "biser-i-sozdanie-ukrashenii",
+                "title": "Бисер и создание украшений"
+            },
+            {
+                "id": "tovary-dlia-dekupazha",
+                "title": "Декупаж"
+            },
+            {
+                "id": "tovary-dlia-skrapbukinga",
+                "title": "Скрапбукинг"
+            },
+            {
+                "id": "tovary-dlia-izgotovleniia-myla-svechei-kosmetiki",
+                "title": "Изготовление мыла, свечей, косметики"
+            },
+            {
+                "id": "nabory-dlia-opytov-i-issledovanii",
+                "title": "Наборы для опытов и исследований"
+            }
+        ]
+    },
+    {
+        "id": "razvitie-i-obuchenie",
+        "title": "Развитие и обучение",
+        "subItems": [
+            {
+                "id": "top-tovary-dlia-lepki-i-razvitiia-motoriki",
+                "title": "ТОП товары для лепки и развития моторики"
+            },
+            {
+                "id": "rannee-razvitie",
+                "title": "Развивающие пособия и материалы"
+            },
+            {
+                "id": "opyty-i-issledovaniia",
+                "title": "Наборы для опытов и исследований"
+            },
+            {
+                "id": "pazly",
+                "title": "Пазлы"
+            },
+            {
+                "id": "golovolomki",
+                "title": "Головоломки"
+            },
+            {
+                "id": "mozaiki-i-kaleidoskopy-dlia-detei",
+                "title": "Мозаики и калейдоскопы"
+            },
+            {
+                "id": "konstruktory",
+                "title": "Конструкторы"
+            },
+            {
+                "id": "robototekhnika-i-stem-igrushki",
+                "title": "Робототехника и Stem-игрушки"
+            },
+            {
+                "id": "knigi-dlia-detei",
+                "title": "Книги для детей"
+            },
+            {
+                "id": "opyty-i-issledovaniia",
+                "title": "Опыты и исследования"
+            }
+        ]
+    },
+    {
+        "id": "detskaia-odezhda-i-obuv",
+        "title": "Детская одежда и обувь",
+        "subItems": [
+            {
+                "id": "odezhda-dlia-devochek",
+                "title": "Для девочек"
+            },
+            {
+                "id": "odezhda-dlia-malchikov",
+                "title": "Для мальчиков"
+            },
+            {
+                "id": "odezhda-dlia-malyshei",
+                "title": "Для малышей"
+            },
+            {
+                "id": "detskaia-obuv",
+                "title": "Обувь"
+            },
+            {
+                "id": "shkolnaia-odezhda-i-obuv",
+                "title": "Школьная одежда и обувь"
+            },
+            {
+                "id": "detskaia-sportivnaia-odezhda",
+                "title": "Спортивная одежда"
+            },
+            {
+                "id": "aksessuary-dlia-detei",
+                "title": "Аксессуары"
+            },
+            {
+                "id": "sumki-i-riukzaki-dlia-detei",
+                "title": "Сумки и рюкзаки"
+            }
+        ]
+    },
+    {
+        "id": "detskie-igrushki-i-igry",
+        "title": "Игрушки и игры",
+        "subItems": [
+            {
+                "id": "liubimye-geroi-i-personazhi",
+                "title": "Любимые герои и персонажи"
+            },
+            {
+                "id": "konstruktory",
+                "title": "Конструкторы"
+            },
+            {
+                "id": "igry-dlia-detei",
+                "title": "Игры для детей"
+            },
+            {
+                "id": "kukly-i-aksessuary",
+                "title": "Куклы и аксессуары"
+            },
+            {
+                "id": "robototekhnika-i-stem-igrushki",
+                "title": "Робототехника и Stem-игрушки"
+            },
+            {
+                "id": "igrovye-nabory-i-figurki-dlia-detei",
+                "title": "Игровые наборы и фигурки"
+            },
+            {
+                "id": "igrushechnye-roboty-i-transformery",
+                "title": "Роботы и трансформеры"
+            },
+            {
+                "id": "miagkie-igrushki",
+                "title": "Мягкие игрушки"
+            },
+            {
+                "id": "interaktivnye-miagkie-igrushki",
+                "title": "Интерактивные мягкие игрушки"
+            },
+            {
+                "id": "igrushki-dlia-detei-do-3-let",
+                "title": "Для детей до 3 лет"
+            },
+            {
+                "id": "radioupravliaemye-modeli-i-igrushki",
+                "title": "Радиоуправляемые модели и игрушки"
+            },
+            {
+                "id": "igrushechnyi-transport",
+                "title": "Игрушечный транспорт"
+            },
+            {
+                "id": "igrushechnoe-oruzhie-i-blastery",
+                "title": "Игрушечное оружие и бластеры"
+            },
+            {
+                "id": "siuzhetno-rolevye-igry-i-igrushki",
+                "title": "Сюжетно-ролевые игры и игрушки"
+            },
+            {
+                "id": "razvivaiushchie-i-obuchaiushchie-igrushki",
+                "title": "Развивающие и обучающие игрушки"
+            },
+            {
+                "id": "igrushki-antistress",
+                "title": "Игрушки-антистресс"
+            },
+            {
+                "id": "dereviannye-igrushki",
+                "title": "Деревянные игрушки"
+            },
+            {
+                "id": "interaktivnye-igrushki",
+                "title": "Интерактивные игрушки"
+            },
+            {
+                "id": "prinadlezhnosti-dlia-khraneniia-igrushek",
+                "title": "Хранение игрушек"
+            },
+            {
+                "id": "knigi-dlia-detei",
+                "title": "Детские книги и пособия"
+            }
+        ]
+    },
+    {
+        "id": "podguzniki-gigiena-i-ukhod",
+        "title": "Подгузники, гигиена и уход",
+        "subItems": [
+            {
+                "id": "podguzniki-salfetki-i-pelenki",
+                "title": "Подгузники, салфетки и пеленки"
+            },
+            {
+                "id": "gorshki-i-detskie-sidenia-na-unitaz",
+                "title": "Горшки и сиденья"
+            },
+            {
+                "id": "pelenalnye-stoliki-i-doski-dlia-malyshei",
+                "title": "Пеленальные столики и доски"
+            },
+            {
+                "id": "prinadlezhnosti-dlia-kupaniia-malysha",
+                "title": "Принадлежности для купания"
+            },
+            {
+                "id": "kosmetika-i-gigiena",
+                "title": "Косметика и гигиена"
+            },
+            {
+                "id": "detskie-vesy",
+                "title": "Детские весы"
+            }
+        ]
+    },
+    {
+        "id": "detskaia-komnata",
+        "title": "Детская комната",
+        "subItems": [
+            {
+                "id": "detskaia-mebel-i-aksessuary",
+                "title": "Детская мебель и аксессуары"
+            },
+            {
+                "id": "matrasy-i-tekstil",
+                "title": "Матрасы и текстиль"
+            },
+            {
+                "id": "tovary-dlia-zashchity-i-bezopasnosti-malysha",
+                "title": "Защита и безопасность"
+            }
+        ]
+    },
+    {
+        "id": "knigi-dlia-detei",
+        "title": "Книги для детей",
+        "subItems": [
+            {
+                "id": "top-200-knig-dlia-detei",
+                "title": "Топ-200 книг для детей"
+            },
+            {
+                "id": "khudozhestvennaia-literatura-dlia-detei",
+                "title": "Детская художественная литература"
+            },
+            {
+                "id": "poznavatelnaia-literatura",
+                "title": "Познавательная литература"
+            },
+            {
+                "id": "knigi-dlia-malyshei",
+                "title": "Книги для малышей"
+            },
+            {
+                "id": "knigi-po-ukhodu-za-rebenkom",
+                "title": "Книги для родителей"
+            }
+        ]
     }
 ]

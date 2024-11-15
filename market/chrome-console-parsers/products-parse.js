@@ -1,4 +1,4 @@
-Array.from(
+const res = Array.from(
     document.querySelectorAll(
         '[data-apiary-widget-name="@marketfront/SerpEntity"]' +
             ' [data-apiary-widget-name="@light/Organic"]',
@@ -47,3 +47,8 @@ Array.from(
 
     return { id, ...(brandTitle && { brandTitle }), title, images };
 });
+
+Object.values(res).reduce((res, item) => {
+    res[item.id] = item;
+    return res;
+}, {});
