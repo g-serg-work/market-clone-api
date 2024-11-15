@@ -7,6 +7,7 @@ const _marketDataParse = (dir, idx, names, keys, data, result) => {
     if (!result[name]) result[name] = [];
 
     const path = `${dir}/${name}.json`;
+
     if (!fs.existsSync(path)) return;
 
     const jsonPath = fs.readFileSync(path, 'UTF-8');
@@ -30,12 +31,20 @@ const _marketDataParse = (dir, idx, names, keys, data, result) => {
 };
 
 const marketDataParse = (dir) => {
-    const names = ['catalogs', 'categories', 'products'];
-    const keys = ['catalogId', 'categoryId', 'productId'];
+    const names = [
+        ['catalogs', 'categories', 'products'],
+        ['catalogs', 'page'],
+    ];
+    const keys = [
+        ['catalogId', 'categoryId', 'productId'],
+        ['catalogId', 'pageId'],
+    ];
 
     // eslint-disable-next-line prefer-const
     let result = {};
-    _marketDataParse(dir, 0, names, keys, {}, result);
+    for (const idx of names.keys()) {
+        _marketDataParse(dir, 0, names[idx], keys[idx], {}, result);
+    }
 
     return result;
 };
