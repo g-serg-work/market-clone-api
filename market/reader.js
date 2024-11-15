@@ -3,8 +3,10 @@ const fs = require('fs');
 const _marketDataParse = (dir, idx, names, keys, data, result) => {
     const name = names[idx];
     const key = keys[idx];
+    const subItemsName = `${name}SubItems`;
 
     if (!result[name]) result[name] = [];
+    if (!result[subItemsName]) result[subItemsName] = [];
 
     const path = `${dir}/${name}.json`;
 
@@ -13,7 +15,12 @@ const _marketDataParse = (dir, idx, names, keys, data, result) => {
     const jsonPath = fs.readFileSync(path, 'UTF-8');
 
     JSON.parse(jsonPath).forEach((row) => {
-        result[name].push({ ...data, ...row });
+        const { subItems = [], ...rowRest } = row;
+        result[name].push({ ...data, ...rowRest });
+
+        for (const subItem of subItems) {
+            result[subItemsName].push({ [key]: row.id, ...subItem });
+        }
 
         const subDir = `${dir}/${row.id}`;
 
@@ -23,7 +30,7 @@ const _marketDataParse = (dir, idx, names, keys, data, result) => {
                 idx + 1,
                 names,
                 keys,
-                { ...data, [key]: row.id },
+                { [key]: row.id, ...data },
                 result,
             );
         }
