@@ -1,31 +1,167 @@
 [
     {
+        "id": "fashion-dep",
+        "title": "Одежда и обувь",
+        "img": "1357599/img-b02c68fb-e35d-487a-a11a-c6e0d0f9e632.svg/svg"
+    },
+    {
+        "id": "tovary-dlia-doma",
+        "title": "Дом",
+        "img": "879900/img-8ec726e4-0b72-444b-a1d0-284c9cb95989.svg/svg"
+    },
+    {
         "id": "kids-dep",
-        "title": "Детям",
-        "description": "Товары для детей",
-        "banners": [
-            {
-                "href": "/special/bestsellers",
-                "bgImg": "/1668019/img-008f8728-f6b1-4ff5-88b5-ac966a767575",
-                "headerImg": "/1533751/img-892d9976-75a5-4e8b-a04a-1daa16c2f038",
-                "carusel": [
-                    "kukla-pups-20-sm",
-                    "elektrokvadrotsikl-mototsikl-pituso-491b-6v-4-5ah-20w-1krasno-belyi"
-                ]
-            },
-            {
-                "href": "/special/children-17",
-                "bgImg": "/1534436/img-90f5124f-4cb6-476b-9c11-86c74e619fd6",
-                "headerImg": "/1534436/img-fc396ace-9cf5-4fc6-9c18-b7ce93f97658",
-                "carusel": [
-                    "vatrushka-tiubing-100-sm-detskaia-oksford-pvkh-dlia-kataniia"
-                ]
-            }
-        ]
+        "title": "Детские товары",
+        "img": "475644/img-dca0991e-e9f8-4d1b-89e4-db2cec0d1d3c.svg/svg"
     },
     {
         "id": "tovary-dlia-krasoty",
         "title": "Красота",
-        "description": "Товары для красоты"
+        "img": "1523779/img-0ded6f95-0c64-422c-a7d5-73638a3323e3.svg/optimize"
+    },
+    {
+        "id": "electronics-dep",
+        "title": "Электроника",
+        "img": "1779479/img-3753ace1-135f-40a7-b626-051434e17e0e.svg/orig"
+    },
+    {
+        "id": "technic-dep",
+        "title": "Бытовая техника",
+        "img": "475644/img-c7218e36-c241-428f-89ec-af5253c0ad5d.svg/svg"
+    },
+    {
+        "id": "flowers-dep",
+        "title": "Цветы",
+        "img": "1357599/img-c135ee86-404d-4ac5-bd1a-47af0eb8ca2a.svg/orig"
+    },
+    {
+        "id": "dacha-dep",
+        "title": "Дача и сад",
+        "img": "1357599/img-396b8305-5a06-4a44-b516-739d5c1a9203.svg/svg"
+    },
+    {
+        "id": "produkty-napitki",
+        "title": "Продукты питания",
+        "img": "944743/img-2fa25175-e4b5-4dd5-963e-3ad89e69adb0.svg/svg"
+    },
+    {
+        "id": "remont",
+        "title": "Строительство и ремонт",
+        "img": "879900/img-0573b0e8-ca46-4692-8770-29b3b9b44cc7.svg/svg"
+    },
+    {
+        "id": "mebel",
+        "title": "Мебель",
+        "img": "1668019/img-b59e0559-4219-4830-b6c8-7bdeba277c3b.svg/orig"
+    },
+    {
+        "id": "skidki-hub",
+        "title": "Скидки и акции",
+        "img": "1357599/img-6c32e8ac-6d36-4e4c-8381-8e68789410f8.svg/svg"
+    },
+    {
+        "id": "auto-dep",
+        "title": "Автотовары",
+        "img": "1490511/img-749b24c9-1537-4ad3-8b80-c3053ec0d3fb.svg/svg"
+    },
+    {
+        "id": "tovary-dlia-zdorovia",
+        "title": "Аптека",
+        "img": "1357599/img-b2104521-61c1-4a0f-8bae-a5e1c5b4baec.svg/svg"
+    },
+    {
+        "id": "sport-dep",
+        "title": "Спорт и отдых",
+        "img": "1357599/img-8ab22cf8-4600-48ea-b7d0-11424589d70b.svg/svg"
+    },
+    {
+        "id": "tovary-kak-u-ikea",
+        "title": "Товары ИКЕА",
+        "img": "1534436/img-0b4647aa-b449-44c9-8d0a-9dbca114cf5c.png/favicon_32x32"
+    },
+    {
+        "id": "iuvelirnye-ukrasheniia",
+        "title": "Ювелирные украшения",
+        "img": "475644/img-63a6830b-69c5-4f54-89da-e0287dbb6242.svg/orig"
+    },
+    {
+        "id": "books-dep",
+        "title": "Книги",
+        "img": "879900/img-dc826800-9a01-4391-8f7d-822b9168e81b.svg/orig"
+    },
+    {
+        "id": "hobby-dep",
+        "title": "Хобби и творчество",
+        "img": "1357599/img-0e58c8b1-34cb-4d64-8142-c34606c8beec.svg/svg"
+    },
+    {
+        "id": "dosug-i-razvlecheniia",
+        "title": "Досуг и развлечения",
+        "img": "1534436/img-3b186895-88dc-471e-b793-5978b7d3252b.svg/orig"
+    },
+    {
+        "id": "school-dep",
+        "title": "Для школы и офиса",
+        "img": "1357599/img-0b231e25-5c94-4119-9281-51f3ef38df8e.svg/orig"
+    },
+    {
+        "id": "kompiuternaia-tekhnika",
+        "title": "Ноутбуки и компьютеры",
+        "img": "879900/img-265ee528-3e72-4769-91ab-ae15cf38da8e.svg/svg"
+    },
+    {
+        "id": "gaming-dep",
+        "title": "Все для гейминга",
+        "img": "1668019/img-9d7ad76a-dff7-4914-ad04-e404bd84f636.svg/orig"
+    },
+    {
+        "id": "umnye-kolonki",
+        "title": "Умные колонки",
+        "img": "944743/img-779d201e-552d-4169-89de-62f391466d78.svg/orig"
+    },
+    {
+        "id": "gigiena",
+        "title": "Гигиена",
+        "img": "1490511/img-4f089dba-1c6a-4a42-84ea-30606d5ed44c.png/favicon_32x32"
+    },
+    {
+        "id": "bytovaia-khimiia",
+        "title": "Бытовая химия",
+        "img": "1534436/img-a6192665-9f39-4e93-a496-a394af0435fa.svg/orig"
+    },
+    {
+        "id": "tovary-dlia-zhivotnykh",
+        "title": "Зоотовары",
+        "img": "475644/img-6d23ecd1-f22a-4c9e-a6f0-22cfb4f8be95.svg/svg"
+    },
+    {
+        "id": "tovary-dlia-vzroslykh",
+        "title": "Товары для взрослых",
+        "img": "1533751/img-73dc326e-05b4-40de-b839-0a75cf2f90e8.svg/orig"
+    },
+    {
+        "id": "optika",
+        "title": "Оптика",
+        "img": "1668019/img-f3dbba92-ce05-401a-8075-46c13e208a97.svg/orig"
+    },
+    {
+        "id": "remesla",
+        "title": "Ремёсла",
+        "img": "1779479/img-9cf629a4-0277-4c86-80cb-e959d2f4294d.png/favicon_32x32"
+    },
+    {
+        "id": "tsifrovye-tovary-i-podarochnye-sertifikaty",
+        "title": "Цифровые товары",
+        "img": "1490511/img-77a1131b-5ce8-4bd0-a572-216dd38417c5.svg/orig"
+    },
+    {
+        "id": "oborudovanie",
+        "title": "Оборудование",
+        "img": "1357599/img-906fdcab-e822-4642-a773-52f227d8c500.svg/svg"
+    },
+    {
+        "id": "reseil",
+        "title": "Уценка",
+        "img": "879900/img-231f5e7d-a3fd-49f5-8355-10d2e171905c.svg/orig"
     }
 ]

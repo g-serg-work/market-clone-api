@@ -1,5 +1,5 @@
-const parseCatalogBanner = require('../../util/parseCatalogBanner');
-const parseCategory = require('../../util/parseCategory');
+const parseCatalogBanner = require('../../util/market/parseCatalogBanner');
+const parseCategory = require('../../util/market/parseCategory');
 
 const catalogGet = (handlerCfg) => (req, res) => {
     try {

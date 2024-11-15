@@ -1,34 +1,386 @@
 [
     {
-        "id": "54359855",
-        "img": "1668019/img-4fb68509-a2b4-4576-859b-bfdf6c1600cc.png/optimize"
+        "id": "zhenskaia-odezhda",
+        "title": "Женщинам",
+        "subItems": [
+            {
+                "id": "aksessuary-dlia-zhenshchin",
+                "title": "Аксессуары"
+            },
+            {
+                "id": "zhenskie-bluzy-i-rubashki",
+                "title": "Блузы и рубашки"
+            },
+            {
+                "id": "zhenskie-bodi",
+                "title": "Боди"
+            },
+            {
+                "id": "zhenskie-briuki",
+                "title": "Брюки"
+            },
+            {
+                "id": "zhenskaia-verkhniaia-odezhda",
+                "title": "Верхняя одежда"
+            },
+            {
+                "id": "zhenskie-vodolazki",
+                "title": "Водолазки"
+            },
+            {
+                "id": "zhenskie-dzhempery-svitery-i-kardigany",
+                "title": "Джемперы, свитеры, кардиганы"
+            },
+            {
+                "id": "zhenskie-dzhinsy",
+                "title": "Джинсы"
+            },
+            {
+                "id": "zhenskaia-domashniaia-odezhda-i-kigurumi",
+                "title": "Домашняя одежда"
+            },
+            {
+                "id": "zhenskie-zhilety",
+                "title": "Жилеты и болеро"
+            },
+            {
+                "id": "zhenskie-kapri-i-bridzhi",
+                "title": "Капри и бриджи"
+            },
+            {
+                "id": "zhenskie-karnavalnye-kostiumy",
+                "title": "Карнавальные костюмы"
+            },
+            {
+                "id": "kigurumi-dlia-zhenshchin",
+                "title": "Кигуруми"
+            },
+            {
+                "id": "zhenskie-kombinezony",
+                "title": "Комбинезоны"
+            },
+            {
+                "id": "zhenskie-kostiumy-klassicheskie-i-povsednevnye",
+                "title": "Костюмы классические и повседневные"
+            },
+            {
+                "id": "zhenskie-longslivy",
+                "title": "Лонгсливы"
+            },
+            {
+                "id": "zhenskoe-nizhnee-bele",
+                "title": "Нижнее белье"
+            },
+            {
+                "id": "noski-chulki-kolgotki",
+                "title": "Носки, чулки, колготки"
+            },
+            {
+                "id": "zhenskaia-obuv",
+                "title": "Обувь"
+            },
+            {
+                "id": "odezhda-dlia-budushchikh-mam",
+                "title": "Одежда для будущих мам"
+            },
+            {
+                "id": "zhenskie-pidzhaki",
+                "title": "Пиджаки"
+            },
+            {
+                "id": "zhenskie-platia",
+                "title": "Платья и сарафаны"
+            },
+            {
+                "id": "pliazhnaia-moda-dlia-zhenshchin",
+                "title": "Пляжная мода"
+            },
+            {
+                "id": "zhenskaia-svadebnaia-odezhda-i-aksessuary",
+                "title": "Свадебная мода"
+            },
+            {
+                "id": "zhenskaia-sportivnaia-odezhda",
+                "title": "Спортивная одежда"
+            },
+            {
+                "id": "zhenskie-tolstovki-i-svitshoty",
+                "title": "Толстовки и свитшоты"
+            },
+            {
+                "id": "zhenskie-tuniki",
+                "title": "Туники"
+            },
+            {
+                "id": "zhenskie-futbolki-i-topy",
+                "title": "Футболки и топы"
+            },
+            {
+                "id": "zhenskie-iubki-i-podiubniki",
+                "title": "Юбки"
+            },
+            {
+                "id": "zhenskie-shorty-i-velosipedki",
+                "title": "Шорты"
+            }
+        ]
     },
     {
-        "id": "54250868",
-        "img": "1668019/img-d0ba4e97-d4c7-42cd-b457-ae95bbd9b66f.png/optimize"
+        "id": "obuv",
+        "title": "Обувь",
+        "subItems": [
+            {
+                "id": "zhenskaia-obuv",
+                "title": "Женская обувь"
+            },
+            {
+                "id": "muzhskaia-obuv",
+                "title": "Мужская обувь"
+            },
+            {
+                "id": "obuv-dlia-devochek",
+                "title": "Для девочек"
+            },
+            {
+                "id": "obuv-dlia-malchikov",
+                "title": "Для мальчиков"
+            },
+            {
+                "id": "obuv-dlia-malyshei",
+                "title": "Для малышей"
+            }
+        ]
     },
     {
-        "id": "sumki-riukzaki-i-chemodany-dlia-zhenshchin",
-        "img": "1357599/img-54507021-acd1-4124-a5c9-d93406b768b3.png/optimize"
+        "id": "muzhskaia-odezhda",
+        "title": "Мужчинам",
+        "subItems": [
+            {
+                "id": "aksessuary-dlia-muzhchin",
+                "title": "Аксессуары"
+            },
+            {
+                "id": "muzhskie-briuki",
+                "title": "Брюки"
+            },
+            {
+                "id": "muzhskaia-verkhniaia-odezhda",
+                "title": "Верхняя одежда"
+            },
+            {
+                "id": "muzhskie-vodolazki",
+                "title": "Водолазки"
+            },
+            {
+                "id": "muzhskie-dzhempery-svitery-i-kardigany",
+                "title": "Джемперы, свитеры, кардиганы"
+            },
+            {
+                "id": "muzhskie-dzhinsy",
+                "title": "Джинсы"
+            },
+            {
+                "id": "domashniaia-odezhda-i-kigurumi-dlia-muzhchin",
+                "title": "Домашняя одежда"
+            },
+            {
+                "id": "muzhskie-zhilety",
+                "title": "Жилеты"
+            },
+            {
+                "id": "karnavalnye-kostiumy-i-aksessuary-dlia-muzhchin",
+                "title": "Карнавальные костюмы"
+            },
+            {
+                "id": "kigurumi-dlia-muzhchin",
+                "title": "Кигуруми"
+            },
+            {
+                "id": "muzhskie-kombinezony",
+                "title": "Комбинезоны"
+            },
+            {
+                "id": "muzhskie-kostiumy-klassicheskie-i-povsednevnye",
+                "title": "Костюмы классические и повседневные"
+            },
+            {
+                "id": "muzhskie-longslivy",
+                "title": "Лонгсливы"
+            },
+            {
+                "id": "nizhnee-bele-dlia-muzhchin",
+                "title": "Нижнее белье"
+            },
+            {
+                "id": "muzhskie-noski",
+                "title": "Носки"
+            },
+            {
+                "id": "muzhskaia-obuv",
+                "title": "Обувь"
+            },
+            {
+                "id": "muzhskie-pidzhaki",
+                "title": "Пиджаки"
+            },
+            {
+                "id": "pliazhnaia-moda-dlia-muzhchin",
+                "title": "Пляжная мода"
+            },
+            {
+                "id": "muzhskie-rubashki",
+                "title": "Рубашки"
+            },
+            {
+                "id": "muzhskaia-sportivnaia-odezhda",
+                "title": "Спортивная одежда"
+            },
+            {
+                "id": "muzhskie-tolstovki-i-svitshoty",
+                "title": "Толстовки и свитшоты"
+            },
+            {
+                "id": "muzhskie-futbolki-i-maiki",
+                "title": "Футболки и майки"
+            },
+            {
+                "id": "muzhskie-futbolki-polo",
+                "title": "Футболки-поло"
+            },
+            {
+                "id": "muzhskie-shorty",
+                "title": "Шорты"
+            }
+        ]
     },
     {
-        "id": "54360065",
-        "img": "1776516/img-5aae1328-70a4-4957-a0bd-c46a97896a42.png/optimize"
+        "id": "aksessuary",
+        "title": "Аксессуары",
+        "subItems": [
+            {
+                "id": "sumki-riukzaki-chemodany",
+                "title": "Сумки, рюкзаки, чемоданы"
+            },
+            {
+                "id": "koshelki-vizitnitsy-kosmetichki",
+                "title": "Кошельки, визитницы, косметички"
+            },
+            {
+                "id": "iuvelirnye-ukrasheniia",
+                "title": "Ювелирные украшения"
+            },
+            {
+                "id": "bizhuteriia",
+                "title": "Бижутерия"
+            },
+            {
+                "id": "chasy",
+                "title": "Часы"
+            },
+            {
+                "id": "remni-galstuki-ochki-zonty",
+                "title": "Ремни, галстуки, очки, зонты"
+            }
+        ]
     },
     {
-        "id": "54360102",
-        "img": "1357599/img-fa2741a4-b206-4226-bf83-6baffbe745b3.png/optimize"
+        "id": "detskaia-odezhda",
+        "title": "Детям",
+        "subItems": [
+            {
+                "id": "aksessuary-dlia-detei",
+                "title": "Аксессуары"
+            },
+            {
+                "id": "odezhda-dlia-devochek",
+                "title": "Для девочек"
+            },
+            {
+                "id": "odezhda-dlia-malchikov",
+                "title": "Для мальчиков"
+            },
+            {
+                "id": "odezhda-dlia-malyshei",
+                "title": "Для малышей"
+            },
+            {
+                "id": "detskaia-obuv",
+                "title": "Обувь"
+            },
+            {
+                "id": "detskaia-sportivnaia-odezhda",
+                "title": "Спортивная одежда"
+            },
+            {
+                "id": "sumki-i-riukzaki-dlia-detei",
+                "title": "Сумки и рюкзаки"
+            },
+            {
+                "id": "shkolnaia-odezhda-i-obuv",
+                "title": "Школьная одежда и обувь"
+            }
+        ]
     },
     {
-        "id": "54360128",
-        "img": "475644/img-b1a2806a-432a-48fe-8052-a153560659b9.png/optimize"
-    },
-    {
-        "id": "51890320",
-        "img": "475644/img-d0b9a2aa-8ec7-496c-9c60-64c0a83d0914.png/optimize"
-    },
-    {
-        "id": "54360039",
-        "img": "475644/img-8919eab3-e2d4-444e-809d-70ab7f923fbc.png/optimize"
+        "id": "reseil",
+        "title": "Ресейл",
+        "subItems": [
+            {
+                "id": "zhenskie-bluzy-i-rubashki",
+                "title": "Блузы и рубашки"
+            },
+            {
+                "id": "zhenskie-briuki",
+                "title": "Брюки"
+            },
+            {
+                "id": "zhenskie-dzhinsy",
+                "title": "Джинсы"
+            },
+            {
+                "id": "zhenskie-kurtki",
+                "title": "Куртки"
+            },
+            {
+                "id": "ochki-solntsezashchitnye",
+                "title": "Очки"
+            },
+            {
+                "id": "zhenskie-palto",
+                "title": "Пальто"
+            },
+            {
+                "id": "zhenskie-pidzhaki",
+                "title": "Пиджаки"
+            },
+            {
+                "id": "zhenskie-platia",
+                "title": "Платья"
+            },
+            {
+                "id": "zhenskie-plashchi",
+                "title": "Плащи"
+            },
+            {
+                "id": "svitery-i-kardigany",
+                "title": "Свитеры и кардиганы"
+            },
+            {
+                "id": "sumki",
+                "title": "Сумки"
+            },
+            {
+                "id": "zhenskie-futbolki-i-topy",
+                "title": "Футболки и топы"
+            },
+            {
+                "id": "zhenskie-sharfy-i-platki",
+                "title": "Шарфы и платки"
+            },
+            {
+                "id": "zhenskie-iubki-i-podiubniki",
+                "title": "Юбки"
+            }
+        ]
     }
 ]

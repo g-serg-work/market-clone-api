@@ -1,4 +1,4 @@
-const parseOrder = require('../../util/parseOrder');
+const parseOrder = require('../../util/market/parseOrder');
 
 const ordersByUserGet = (handlerCfg) => (req, res) => {
     try {
